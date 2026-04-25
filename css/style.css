@@ -6,10 +6,39 @@ body{
 header{
   background-color: #b9b9b9;
   text-align: center; 
+  padding: 20px;
 }
 
 nav{
+  width: 80%;
+  display: inline-block;
   background-color: #91c4ea;
+}
+
+nav img {
+  width: 10%;
+  position: relative;
+  top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 20px;
+  justify-content: center;
+  align-items: start;
+  row-gap: 5px;
+}
+
+.grid img {
+  width: 100%;
+  display: block;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 main{
@@ -21,12 +50,12 @@ footer{
   background-color: #bacddb;
 }
 
-li{
+/* li{
   display: inline-block;
   width: 27%;
   text-align: center;
   height: 100px;
-}
+} */
 
 h1{
   text-align: center;
