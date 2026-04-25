@@ -3,6 +3,13 @@ body{
   font-size: 150%;
 }
 
+ul {
+  list-style: none;
+  display: flex; 
+  gap: 30px;
+}
+
+
 header{
   background-color: #b9b9b9;
   text-align: center; 
@@ -10,7 +17,7 @@ header{
 }
 
 nav{
-  width: 80%;
+  width: 100%;
   display: inline-block;
   background-color: #91c4ea;
 }
